@@ -1,0 +1,29 @@
+{
+  "name": "nag",
+  "version": "1.0.0",
+  "description": "constantly bothers some poor web server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bombbomb/nag.git"
+  },
+  "keywords": [
+    "scheduled",
+    "http",
+    "task",
+    "runner"
+  ],
+  "author": "ehippy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bombbomb/nag/issues"
+  },
+  "homepage": "https://github.com/bombbomb/nag#readme",
+  "dependencies": {
+    "node-elk-logger": "^0.1.5",
+    "request": "^2.78.0"
+  }
+}
